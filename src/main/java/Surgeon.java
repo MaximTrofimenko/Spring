@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class Surgeon implements IDoctor{
 
-    @Value("555555")
+    @Value("101")
     private int ROOM;
 
     IHealthCard healthCard;
